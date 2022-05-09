@@ -45,12 +45,24 @@ function App() {
         <h2>Top 10 IT Companies in the World</h2>
         <ul>
           {companys.map((company, index) => {
-            return <li key={index}><a href={company.homepage}>
-            <img className="companyLogo"
-                src={`/images/${company.logo}`}
-                alt="the logo of company"
-            />
-        </a></li>;
+            return (
+              <li key={index}>
+                <a href={company.homepage}>
+                  <img
+                    className="companyLogo"
+                    src={`/images/${company.logo}`}
+                    alt="the logo of company"
+                  />
+                </a>
+               <div className="name">{company.name}</div>
+                <div className="numberOfEmployees">
+                  Employees: {company.numberOfEmployees}
+                </div>
+                <div className="headquarters">
+                  Headquarters: {company.headquarters}
+                </div>
+              </li>
+            );
           })}
         </ul>
       </div>
