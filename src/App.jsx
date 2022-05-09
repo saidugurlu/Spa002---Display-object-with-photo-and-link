@@ -33,7 +33,7 @@ const companys = [
     name: "SAP",
     numberOfEmployees: 107.415,
     headquarters: "Walldorf, Baden-Württemberg, Germany",
-    logo: "microsoft-logo.png",
+    logo: "sap-logo.png",
     homepage: "https://www.sap.com",
   },
 ];
