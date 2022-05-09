@@ -1,3 +1,9 @@
-.App {
-  text-align: center;
+ul {
+  list-style-type: none;
+}
+.companyLogo {
+  width: 100px;
+  border: 1px solid red;
+  margin: 20px;
+  padding: 20px;
 }
